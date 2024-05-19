@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #CA8787;
+}
+
+li{
+    list-style: square;
+}
+
+.centered
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #FFD0D0;
+    padding: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);  
+    box-shadow:  12px 10px 19px 7px #b45f7491 ;
+    border-radius: 10%;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+#app
+{
+    padding: 6%;
+    gap: 2em;
+    font-size: larger;
+
+}
